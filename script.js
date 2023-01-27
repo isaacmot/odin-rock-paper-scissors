@@ -35,9 +35,6 @@ function playRound(playerSelection, computerSelection) {
     return "Not a correct option.";
 }
 
-const scoreMessage = (playerScore, computerScore) => {
-    console.log("Your score is " + playerScore + " and the computer's score is " + computerScore);
-}
 
 function game() {
     let winnerMessage;
